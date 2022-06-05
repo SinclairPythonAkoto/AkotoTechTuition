@@ -60,6 +60,16 @@ There are some rules that developers use when naming a variable.
 - Variables with more than 2x words should be separated by an underscore (`_`) 
 **Your Python code will work if you do not follow these naming conventions but following these rules make it easier for you and other developers will understand your code much eaiser.**
 
+### Data Types ###
+There are different data types that we can use in Python to store as variables.  We have already used 2x data types in this session but there are more. 
+- Text data type: *string*
+- Numeric data type: *integer, float*
+- Boolean data type: *True, False*
+- Mapping data types: *Dictionaries*
+- Sequence data types: *list, tuple, range*
+** Here is just a sample of some of the different data types in Python, we will go through some of these more in depth as the course goes on.**
+
+
 #### References ####
 You can find more information on variables here:
 - [W3 Schools](https://www.w3schools.com/python/python_variables.asp)
