@@ -36,3 +36,31 @@ print("He really liked the name " + my_name + ".")
 print("But he didn't like being " + my_age + ".")
 ```
 Now when we run this we will see that the names and ages of the paragraph has been changed.
+Saving the data in variables also allow us to change the values as we please.  We can change the name and age half-way through the paragraph by chnaging the values of the variables.
+```
+my_name = "Sinclair"
+my_age = "35"
+
+print("There was a man named " + my_name + ".")
+print("He was " + my_age + " years old.")
+
+my_name = "John"
+my_age = "50"
+
+print("He really liked the name " my_name + ".")
+print("But he didn'y like being " + my_age + ".")
+```
+
+### Naming Variables ###
+When giving variables a name it is very important that you give your variable a clear name that not only you will understand but also other developers.  A good name will be easy to understand what the variable is doing; **it's better to have a long variable name that is descriptive than a name that is short and confusing**.
+
+There are some rules that developers use when naming a variable.
+- Names are case sensitive and can begin with: *any letter, $ or _*
+- After the first charater of the variable you can include the following: *any letter, any number, $, _*
+- Variables with more than 2x words should be separated by an underscore (`_`) 
+**Your Python code will work if you do not follow these naming conventions but following these rules make it easier for you and other developers will understand your code much eaiser.**
+
+#### References ####
+You can find more information on variables here:
+- [W3 Schools](https://www.w3schools.com/python/python_variables.asp)
+- [Geek for Geeks](https://www.geeksforgeeks.org/python-variables/)
